@@ -218,7 +218,7 @@ figure {
   .site-nav-item {
     width: 10%;
     clear: both;
-    padding: 3%;
+    margin: 1em 0 1em 0;
   }
   .site-nav {
     z-index: 0;
@@ -232,6 +232,9 @@ figure {
   }
   .movie-overview {
     display: block;
+  }
+  .site-nav-list:first-child {
+    margin-top: 1em;
   }
 }
 @media screen and (min-width: 992px) {
