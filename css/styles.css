@@ -215,6 +215,14 @@ figure {
     padding: 2em;
     text-align: center;
   }
+  .about > p {
+    display: inline;
+    margin-right: 1em;
+  }
+  .footer-nav {
+    width: 90%;
+    float: right;
+  }
   .site-nav-item {
     width: 10%;
     clear: both;
