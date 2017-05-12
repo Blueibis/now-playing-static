@@ -195,7 +195,7 @@ figure {
 .about > p {
   margin: 0;
 }
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) {
   main {
     width: 90%;
     float: right;
@@ -208,15 +208,17 @@ figure {
   }
   .about {
     display: inline-block;
-    width: 100%;
+    width: 90%;
     position: relative;
     bottom: 0;
+    left: 5%;
     padding: 2em;
     text-align: center;
   }
   .site-nav-item {
     width: 10%;
     clear: both;
+    padding: 3%;
   }
   .site-nav {
     z-index: 0;
@@ -225,9 +227,13 @@ figure {
   }
   .site-logo {
     position: fixed;
-    width: 1.55em;
+    width: 6%;
+    left: 2%;
   }
   .movie-overview {
     display: block;
   }
+}
+@media screen and (min-width: 992px) {
+
 }
