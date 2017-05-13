@@ -195,18 +195,18 @@ figure {
 .about > p {
   margin: 0;
 }
-@media screen and (min-width: 768px) {
-  main {
+@media screen and (min-width: 768px) and (max-width: 991px){
+main {
     width: 90%;
     float: right;
   }
-  .site-footer {
+.site-footer {
     display: inline-block;
     width: 100%;
     position: relative;
     bottom: 0;
   }
-  .about {
+.about {
     display: inline-block;
     width: 90%;
     position: relative;
@@ -215,36 +215,103 @@ figure {
     padding: 2em;
     text-align: center;
   }
-  .about > p {
+.about > p {
     display: inline;
     margin-right: 1em;
   }
-  .footer-nav {
+.footer-nav {
     width: 90%;
     float: right;
   }
-  .site-nav-item {
+.site-nav-item {
     width: 10%;
     clear: both;
     margin: 1em 0 1em 0;
   }
-  .site-nav {
+.site-nav {
     z-index: 0;
     position: fixed;
     top: 4.5em;
   }
-  .site-logo {
+.site-logo {
     position: fixed;
     width: 6%;
     left: 2%;
   }
-  .movie-overview {
+.movie-overview {
     display: block;
   }
-  .site-nav-list:first-child {
+.site-nav-list:first-child {
     margin-top: 1em;
   }
 }
 @media screen and (min-width: 992px) {
+  main {
+      width: 90%;
+      float: right;
+    }
+article:nth-child(n+2) {
+  float: left;
+  width: 33.3333333%;
+}
 
+img:first-child {
+  display:block;
+}
+img:last-child {
+  display: none;
+}
+#strange2 {
+  display: block;
+}
+#strange {
+  display: none;
+}
+#logo {
+  display: block;
+}
+#topview {
+  display: block;
+}
+.site-footer {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+.about {
+    display: inline-block;
+    width: 90%;
+    position: relative;
+    bottom: 0;
+    left: 5%;
+    padding: 2em;
+    text-align: center;
+  }
+.about > p {
+    display: inline;
+    margin-right: 1em;
+  }
+.footer-nav {
+    width: 90%;
+    float: right;
+  }
+.site-nav-item {
+    width: 10%;
+    clear: both;
+    margin: 1em 0 1em 0;
+  }
+.site-nav {
+    z-index: 0;
+    position: fixed;
+    top: 4.5em;
+  }
+.site-logo {
+    position: fixed;
+    width: 6%;
+    left: 2%;
+  }
+.site-nav-list:first-child {
+    margin-top: 1em;
+  }
 }
